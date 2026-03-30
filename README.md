@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=thanhtai21&icon=0&color=0" alt="Views" />
+  <img src="https://komarev.com/ghpvc/?username=thanhtai21&label=PROFILE+VIEWS&color=orange&style=flat" alt="Views" />
 </p>
 
 ## 🌐 Socials:
@@ -26,10 +26,9 @@
 
 # 📊 GitHub Stats:
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thanhtai21&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="Stats" /><br/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=thanhtai21&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="Stats" /><br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=thanhtai21&theme=dark&hide_border=false" alt="Streak" /><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanhtai21&layout=compact&theme=dark" alt="Langs" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=thanhtai21&layout=compact&theme=dark" alt="Langs" />
 </p>
-
 ### ✍️ Random Dev Quote:
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
