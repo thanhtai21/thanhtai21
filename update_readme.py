@@ -1,15 +1,26 @@
 import requests
 import re
 
-# Thay bằng username của bạn
 USERNAME = "thanhtai21" 
+
+# Bản đồ ánh xạ tên Repo sang Tên hiển thị đẹp và Lĩnh vực
+REPO_CONFIG = {
+    "nba-data-streaming-pipeline": {"name": "NBA Data Analytics", "field": "📊 Big Data", "desc": "Phân tích Reddit Data bằng Kafka & Spark."},
+    "MT5_Telegram_Trading_Bot": {"name": "Gold Trading Bot", "field": "📈 Finance", "desc": "Bot tự động giao dịch Vàng trên MT5 bằng Python."},
+    "IOT_chatluongkhongkhi": {"name": "Intelligent Air Quality", "field": "🌐 IoT", "desc": "Hệ thống cảnh báo dùng ESP32, MQ-135 & Blynk."},
+    "THOR-APT-Scanner": {"name": "THOR APT Scanner", "field": "🛡️ Cybersecurity", "desc": "Triển khai quét mã độc & phân tích Data Exfiltration."}
+}
 
 def get_status(topics):
     if 'completed' in topics:
         return "✅ Completed"
     return "🛠 Active"
 
-def get_field(topics):
+def get_field(repo_name, topics):
+    # Ưu tiên lấy từ cấu hình cứng
+    if repo_name in REPO_CONFIG:
+        return REPO_CONFIG[repo_name]['field']
+    # Nếu không có thì dựa vào topics
     if 'trading-bot' in topics or 'finance' in topics:
         return "📈 Finance"
     if 'cybersecurity' in topics or 'security' in topics:
@@ -20,27 +31,34 @@ def get_field(topics):
         return "📊 Big Data"
     return "💻 Development"
 
-# Gọi GitHub API lấy danh sách repo
 try:
-    repos = requests.get(f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=10").json()
-
+    repos = requests.get(f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=15").json()
     table_content = "| Dự án | Lĩnh vực | Trạng thái | Chi tiết |\n| :--- | :--- | :--- | :--- |\n"
-
-    # Chỉ lấy các repo không phải là repo cá nhân (profile repo)
-    featured_repos = [r for r in repos if r['name'] != USERNAME][:5]
-
-    for repo in featured_repos:
-        name = repo['name']
+    
+    # Lọc bỏ repo profile và các repo không muốn hiển thị
+    display_count = 0
+    for repo in repos:
+        repo_name = repo['name']
+        if repo_name == USERNAME or repo_name == "thanhtai" or display_count >= 5:
+            continue
+            
         url = repo['html_url']
-        desc = repo['description'] or "No description provided."
         topics = repo.get('topics', [])
-        
-        field = get_field(topics)
         status = get_status(topics)
         
-        table_content += f"| [**{name}**]({url}) | {field} | `{status}` | {desc} |\n"
+        # Lấy thông tin từ REPO_CONFIG hoặc từ GitHub
+        if repo_name in REPO_CONFIG:
+            pretty_name = REPO_CONFIG[repo_name]['name']
+            field = REPO_CONFIG[repo_name]['field']
+            desc = REPO_CONFIG[repo_name]['desc']
+        else:
+            pretty_name = repo_name
+            field = get_field(repo_name, topics)
+            desc = repo['description'] or "Đang cập nhật mô tả..."
+        
+        table_content += f"| [**{pretty_name}**]({url}) | {field} | `{status}` | {desc} |\n"
+        display_count += 1
 
-    # Đọc file README và thay thế đoạn nội dung giữa 2 thẻ ghi chú
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
@@ -49,8 +67,7 @@ try:
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(new_content)
-    
-    print("Successfully updated README.md")
+    print("Successfully updated README.md with smart mapping")
 
 except Exception as e:
-    print(f"Error occurred: {e}")
+    print(f"Error: {e}")

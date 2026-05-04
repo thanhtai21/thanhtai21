@@ -18,10 +18,9 @@
 <!-- START_PROJECT_TABLE -->
 | Dự án | Lĩnh vực | Trạng thái | Chi tiết |
 | :--- | :--- | :--- | :--- |
-| [**nba-data-streaming-pipeline**](https://github.com/thanhtai21/nba-data-streaming-pipeline) | 💻 Development | `🛠 Active` | No description provided. |
-| [**MT5_Telegram_Trading_Bot**](https://github.com/thanhtai21/MT5_Telegram_Trading_Bot) | 💻 Development | `🛠 Active` | No description provided. |
-| [**thanhtai**](https://github.com/thanhtai21/thanhtai) | 💻 Development | `🛠 Active` | No description provided. |
-| [**IOT_chatluongkhongkhi**](https://github.com/thanhtai21/IOT_chatluongkhongkhi) | 💻 Development | `🛠 Active` | No description provided. |
+| [**NBA Data Analytics**](https://github.com/thanhtai21/nba-data-streaming-pipeline) | 📊 Big Data | `🛠 Active` | Phân tích Reddit Data bằng Kafka & Spark. |
+| [**Gold Trading Bot**](https://github.com/thanhtai21/MT5_Telegram_Trading_Bot) | 📈 Finance | `🛠 Active` | Bot tự động giao dịch Vàng trên MT5 bằng Python. |
+| [**Intelligent Air Quality**](https://github.com/thanhtai21/IOT_chatluongkhongkhi) | 🌐 IoT | `🛠 Active` | Hệ thống cảnh báo dùng ESP32, MQ-135 & Blynk. |
 <!-- END_PROJECT_TABLE -->
 
 ---
