@@ -1,16 +1,16 @@
-<p align="center">
+﻿<p align="center">
   <img src="https://komarev.com/ghpvc/?username=thanhtai21&label=PROFILE+VIEWS&color=orange&style=flat" alt="Views" />
 </p>
 
 ## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/thanhtai.817) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:xuanthanhtai817@gmail.com) 
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/thanhtai.817) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:xuanthanhtai817@gmail.com)
 
 # 💻 Tech Stack & Tools:
 ### 🚀 Languages & Frameworks:
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 
 ### 🛠️ Tools & Infrastructure:
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![EA](https://img.shields.io/badge/EA%20Sports-000000?style=for-the-badge&logo=ea&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 
 ---
 
@@ -18,10 +18,10 @@
 <!-- START_PROJECT_TABLE -->
 | Dự án | Lĩnh vực | Trạng thái | Chi tiết |
 | :--- | :--- | :--- | :--- |
-| [**THOR APT Scanner**](https://github.com/thanhtai21/THOR-APT-Scanner) | 🛡️ Cybersecurity | `🛠 Active` | Triển khai quét mã độc & phân tích Data Exfiltration. |
-| [**NBA Data Analytics**](https://github.com/thanhtai21/nba-data-streaming-pipeline) | 📊 Big Data | `🛠 Active` | Phân tích Reddit Data bằng Kafka & Spark. |
-| [**Gold Trading Bot**](https://github.com/thanhtai21/MT5_Telegram_Trading_Bot) | 📈 Finance | `🛠 Active` | Bot tự động giao dịch Vàng trên MT5 bằng Python. |
-| [**Intelligent Air Quality**](https://github.com/thanhtai21/IOT_chatluongkhongkhi) | 🌐 IoT | `🛠 Active` | Hệ thống cảnh báo dùng ESP32, MQ-135 & Blynk. |
+| [**THOR APT Scanner**](https://github.com/thanhtai21/THOR-APT-Scanner) | 🛡️ Cybersecurity | 🛠 Active | Hệ thống tự động quét mã độc và cảnh báo APT real-time. |
+| [**nba-data-streaming-pipeline**](https://github.com/thanhtai21/nba-data-streaming-pipeline) | 📊 Big Data | 🛠 Active | Pipeline xử lý dữ liệu Reddit NBA dùng Kafka, Spark & ML. |
+| [**Gold Trading Bot**](https://github.com/thanhtai21/MT5_Telegram_Trading_Bot) | 📈 Finance | 🛠 Active | Bot tự động giao dịch Vàng trên MT5 tích hợp Telegram. |
+| [**Intelligent Air Quality**](https://github.com/thanhtai21/IOT_chatluongkhongkhi) | 🌐 IoT | 🛠 Active | Giám sát chất lượng không khí dùng ESP32 & Cloud Blynk. |
 <!-- END_PROJECT_TABLE -->
 
 ---
@@ -32,5 +32,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=thanhtai21&theme=dark&hide_border=false" alt="Streak" /><br/>
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=thanhtai21&layout=compact&theme=dark" alt="Langs" />
 </p>
+
 ### ✍️ Random Dev Quote:
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
