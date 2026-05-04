@@ -18,10 +18,10 @@
 <!-- START_PROJECT_TABLE -->
 | Dự án | Lĩnh vực | Trạng thái | Chi tiết |
 | :--- | :--- | :--- | :--- |
-| **Gold Trading Bot** | 📈 Finance | `⚡ In Progress` | Bot tự động giao dịch Vàng trên MT5 bằng Python. |
-| **THOR APT Scanner** | 🛡️ Cybersecurity | `🧪 Testing` | Triển khai quét mã độc & phân tích Data Exfiltration. |
-| **Intelligent Air Quality** | 🌐 IoT | `✅ Completed` | Hệ thống cảnh báo dùng ESP32, MQ-135 & Blynk. |
-| **NBA Data Analytics** | 📊 Big Data | `🛠️ Developing` | Phân tích Reddit Data bằng Kafka & Spark. |
+| [**nba-data-streaming-pipeline**](https://github.com/thanhtai21/nba-data-streaming-pipeline) | 💻 Development | `🛠 Active` | No description provided. |
+| [**MT5_Telegram_Trading_Bot**](https://github.com/thanhtai21/MT5_Telegram_Trading_Bot) | 💻 Development | `🛠 Active` | No description provided. |
+| [**thanhtai**](https://github.com/thanhtai21/thanhtai) | 💻 Development | `🛠 Active` | No description provided. |
+| [**IOT_chatluongkhongkhi**](https://github.com/thanhtai21/IOT_chatluongkhongkhi) | 💻 Development | `🛠 Active` | No description provided. |
 <!-- END_PROJECT_TABLE -->
 
 ---
