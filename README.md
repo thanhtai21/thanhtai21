@@ -18,10 +18,10 @@
 <!-- START_PROJECT_TABLE -->
 | Dự án | Lĩnh vực | Trạng thái | Chi tiết |
 | :--- | :--- | :--- | :--- |
-| [**THOR APT Scanner**](https://github.com/thanhtai21/THOR-APT-Scanner) | 🛡️ Cybersecurity | 🛠 Active | Hệ thống tự động quét mã độc và cảnh báo APT real-time. |
-| [**nba-data-streaming-pipeline**](https://github.com/thanhtai21/nba-data-streaming-pipeline) | 📊 Big Data | 🛠 Active | Pipeline xử lý dữ liệu Reddit NBA dùng Kafka, Spark & ML. |
-| [**Gold Trading Bot**](https://github.com/thanhtai21/MT5_Telegram_Trading_Bot) | 📈 Finance | 🛠 Active | Bot tự động giao dịch Vàng trên MT5 tích hợp Telegram. |
-| [**Intelligent Air Quality**](https://github.com/thanhtai21/IOT_chatluongkhongkhi) | 🌐 IoT | 🛠 Active | Giám sát chất lượng không khí dùng ESP32 & Cloud Blynk. |
+| [**NBA Data Analytics**](https://github.com/thanhtai21/nba-data-streaming-pipeline) | 📊 Big Data | `🛠 Active` | Phân tích Reddit Data bằng Kafka & Spark. |
+| [**THOR APT Scanner**](https://github.com/thanhtai21/THOR-APT-Scanner) | 🛡️ Cybersecurity | `🛠 Active` | Triển khai quét mã độc & phân tích Data Exfiltration. |
+| [**Gold Trading Bot**](https://github.com/thanhtai21/MT5_Telegram_Trading_Bot) | 📈 Finance | `🛠 Active` | Bot tự động giao dịch Vàng trên MT5 bằng Python. |
+| [**Intelligent Air Quality**](https://github.com/thanhtai21/IOT_chatluongkhongkhi) | 🌐 IoT | `🛠 Active` | Hệ thống cảnh báo dùng ESP32, MQ-135 & Blynk. |
 <!-- END_PROJECT_TABLE -->
 
 ---
