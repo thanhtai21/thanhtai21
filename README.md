@@ -18,6 +18,7 @@
 <!-- START_PROJECT_TABLE -->
 | Dự án | Lĩnh vực | Trạng thái | Chi tiết |
 | :--- | :--- | :--- | :--- |
+| [**-WiFi-Cracking-Guide-Vietnamese**](https://github.com/thanhtai21/-WiFi-Cracking-Guide-Vietnamese) | 💻 Development | `🛠 Active` |  Hướng dẫn crack WiFi bằng tiếng Việt - Chỉ dùng cho mục đích học tập |
 | [**NBA Data Analytics**](https://github.com/thanhtai21/nba-data-streaming-pipeline) | 📊 Big Data | `🛠 Active` | Phân tích Reddit Data bằng Kafka & Spark. |
 | [**THOR APT Scanner**](https://github.com/thanhtai21/THOR-APT-Scanner) | 🛡️ Cybersecurity | `🛠 Active` | Triển khai quét mã độc & phân tích Data Exfiltration. |
 | [**Gold Trading Bot**](https://github.com/thanhtai21/MT5_Telegram_Trading_Bot) | 📈 Finance | `🛠 Active` | Bot tự động giao dịch Vàng trên MT5 bằng Python. |
