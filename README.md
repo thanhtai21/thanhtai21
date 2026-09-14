@@ -18,9 +18,9 @@
 <!-- START_PROJECT_TABLE -->
 | Dự án | Lĩnh vực | Trạng thái | Chi tiết |
 | :--- | :--- | :--- | :--- |
+| [**airgeddon-vietnamese**](https://github.com/thanhtai21/airgeddon-vietnamese) | 💻 Development | `🛠 Active` | Airgeddon bản dịch tiếng Việt - Hướng dẫn sử dụng và nhắc nhở học tập |
 | [**-WiFi-Cracking-Guide-Vietnamese**](https://github.com/thanhtai21/-WiFi-Cracking-Guide-Vietnamese) | 💻 Development | `🛠 Active` |  Hướng dẫn crack WiFi bằng tiếng Việt - Chỉ dùng cho mục đích học tập |
 | [**NBA Data Analytics**](https://github.com/thanhtai21/nba-data-streaming-pipeline) | 📊 Big Data | `🛠 Active` | Phân tích Reddit Data bằng Kafka & Spark. |
-| [**THOR APT Scanner**](https://github.com/thanhtai21/THOR-APT-Scanner) | 🛡️ Cybersecurity | `🛠 Active` | Triển khai quét mã độc & phân tích Data Exfiltration. |
 | [**Gold Trading Bot**](https://github.com/thanhtai21/MT5_Telegram_Trading_Bot) | 📈 Finance | `🛠 Active` | Bot tự động giao dịch Vàng trên MT5 bằng Python. |
 | [**Intelligent Air Quality**](https://github.com/thanhtai21/IOT_chatluongkhongkhi) | 🌐 IoT | `🛠 Active` | Hệ thống cảnh báo dùng ESP32, MQ-135 & Blynk. |
 <!-- END_PROJECT_TABLE -->
